@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:text="Seu IMC é:"
+        android:textStyle="bold"
+        android:textColor="@color/green_dark"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/textview_Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:textColor="@color/black"
+        android:padding="16dp"
+        android:textAlignment="center"
+        tools:text="Hello"
+        android:textSize="38sp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_imagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        tools:src="@drawable/abaixop" />
+    <TextView
+        android:id="@+id/textview_classificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        tools:textColor="@color/black"
+        tools:text="SOBREPESO" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginStart="48dp"
+        android:textColor="@color/green_41"
+        android:textStyle="italic"
+        android:text="@string/baixo_do_peso"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginStart="48dp"
+        android:textColor="@color/yellow_30"
+        android:textStyle="italic"
+        android:text="@string/normal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginStart="48dp"
+        android:textColor="@color/yellow_31"
+        android:textStyle="italic"
+        android:text="@string/sobrepeso"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginStart="48dp"
+        android:textColor="@color/orange_32"
+        android:textStyle="italic"
+        android:text="@string/obesidade"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginStart="48dp"
+        android:textColor="@color/red"
+        android:textStyle="italic"
+        android:text="@string/obesidade_grave"/>
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/info_SP"
+        android:padding="16dp"
+        android:textSize="18sp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyFisrtproject</string>
+    <string name="messager">IMC!</string>
+    <string name="calcular">Calcular</string>
+    <string name="message_Classificação">Classificação: %1$s!</string>
+    <string name="info_abaixo">De acordo com a Organização Mundial da Saúde, seu IMC está abaixo do recomendado para a sua altura.O ideal é consultar um nutricionista para fazer uma avaliação mais detalhada.</string>
+    <string name="info_normal">De acordo com a Organização Mundial da Saúde, seu IMC é considerado normal para a sua altura.O ideal é consultar um nutricionista para fazer uma avaliação mais detalhada.</string>
+    <string name="info_SP">De acordo com a Organização Mundial da Saúde, seu IMC está acima do recomendado para a sua altura.O ideal é consultar um nutricionista para fazer uma avaliação mais detalhada.</string>
+    <string name="info_obesidade">De acordo com a Organização Mundial da Saúde, seu IMC está acima do recomendado para a sua altura.O ideal é consultar um nutricionista para fazer uma avaliação mais detalhada.</string>
+    <string name="obesidade_grave">Obesidade Grave: Superior a 40</string>
+    <string name="obesidade">Obesidade: Entre 30 a 39,9</string>
+    <string name="sobrepeso">Sobrepeso: Entre 25 a 29,9</string>
+    <string name="normal">Normal: Entre 18,5 a 24,9</string>
+    <string name="baixo_do_peso">Baixo do peso : Inferior a 18,5</string>
+</resources>
